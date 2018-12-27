@@ -1,3 +1,5 @@
+//Project to learn about C++
+//Author: Richard Ngai
 #include <iostream>
 #include <string>
 using namespace std;
@@ -31,7 +33,7 @@ void eval(string expression){//PEMDAS
  }
 int main(){
   while(1==1){ 
-	cout << "Enter expression: ";
+  cout << "Enter expression: ";
   string expr;
   int endParenIndex;  
   getline(cin, expr);
